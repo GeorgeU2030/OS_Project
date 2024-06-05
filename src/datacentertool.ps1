@@ -1,4 +1,17 @@
-# Function for the Menu
+<#
+.SYNOPSIS
+This script provides a menu-driven tool for datacenter operations.
+
+.DESCRIPTION
+The tool provides the following options:
+1. Display the five processes that are consuming the most CPU
+2. Deploy the filesystems or disks connected to the machine
+3. Display the name and size of the largest stored file
+4. Display the amount of free memory and amount of swap space in use
+5. Display the number of currently active network connections
+6. Exit the tool
+
+#>
 
 function Menu {
     Clear-Host
@@ -58,40 +71,50 @@ function ActiveNetworkConnections {
 
 do {
     Menu
+
+    # Read the user's option
     $option = Read-Host "Select an Option"
 
     switch ($option) {
         1 {
+            # Call the function to display the top five processes consuming the most CPU
             TopFiveCPU
         }
         2 {
+            # Call the function to deploy the filesystems or disks connected to the machine
             DeployFilesystems
         }
         3 {
+            # Call the function to display the name and size of the largest stored file
             $path = Read-Host "Enter the Path to Search"
             LargestStoredFile -path $path
         }
         4 {
+            # Call the function to display the amount of free memory and amount of swap space in use
             Write-Host "`n"
             MemoryandSwap
             Write-Host "`n"
         }
         5 {
+            # Call the function to display the number of currently active network connections
             ActiveNetworkConnections
             Write-Host "`n"
         }
         6 {
+            # Exit the tool
             Write-Host "Exiting... GoodBye ;)"
         }
         default {
+            # Invalid option - Default
             Write-Host "`nInvalid Option, Please Enter a Valid Option ;)`n"
         }
     }
 
     if ($option -ne "6") {
+        # Wait for the user to press Enter to continue
         Write-Host "Presione Enter para continuar..."
         Read-Host
     }
 
-
+# Loop until the user selects option 6 to exit
 } while ($option -ne "6")
