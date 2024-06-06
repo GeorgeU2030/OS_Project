@@ -60,7 +60,7 @@ This repository contains scripts for a menu-driven tool for datacenter operation
 1. Clone the repository:
 
     ```powershell
-    git clonehttps://github.com/GeorgeU2030/ProyectoSO.git
+    git clone https://github.com/GeorgeU2030/ProyectoSO.git
     cd ProyectoSO
     ```
 
