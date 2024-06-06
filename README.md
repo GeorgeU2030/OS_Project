@@ -1,32 +1,32 @@
-# Datacenter Tool
+# 📊 Datacenter Tool
 
 This repository contains scripts for a menu-driven tool for datacenter operations. The tools are available in both BASH and PowerShell to cater to different operating system environments.
 
-## Features
+## ✨ Features
 
-1. **Show top 5 processes by CPU usage**: Displays the processes that are currently consuming the most CPU.
-2. **Show connected filesystems**: Lists the filesystems or disks connected to the machine along with their usage information.
-3. **Show largest file in a specified directory**: Finds and displays the largest file in a user-specified directory.
-4. **Show free memory and swap usage**: Displays the amount of free memory and the swap space usage.
-5. **Show active network connections**: Counts and displays the number of currently active network connections.
-6. **Exit**: Exits the tool.
+1. **🖥️ Show top 5 processes by CPU usage**: Displays the processes that are currently consuming the most CPU.
+2. **💾 Show connected filesystems**: Lists the filesystems or disks connected to the machine along with their usage information.
+3. **📂 Show largest file in a specified directory**: Finds and displays the largest file in a user-specified directory.
+4. **🔋 Show free memory and swap usage**: Displays the amount of free memory and the swap space usage.
+5. **🌐 Show active network connections**: Counts and displays the number of currently active network connections.
+6. **❌ Exit**: Exits the tool.
 
-## Requirements
+## 📋 Requirements
 
-### BASH Script
+### 🐧 BASH Script
 
 - A Unix-like operating system (Linux, macOS).
 - `bash` shell.
 - Basic Unix commands (`ps`, `df`, `find`, `free`, `netstat`).
 
-### PowerShell Script
+### 🪟 PowerShell Script
 
 - Windows operating system.
 - PowerShell installed.
 
-## Usage
+## 🚀 Usage
 
-### BASH Script
+### 🐧 BASH Script
 
 1. Clone the repository:
 
