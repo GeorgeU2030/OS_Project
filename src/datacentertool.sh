@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Function to display the menu
 show_menu() {
