@@ -39,6 +39,7 @@ This repository contains scripts for a menu-driven tool for datacenter operation
     ```bash
     git clone https://github.com/GeorgeU2030/ProyectoSO.git
     cd ProyectoSO
+    cd src
     ```
 
 4. Make the BASH script executable:
@@ -62,6 +63,7 @@ This repository contains scripts for a menu-driven tool for datacenter operation
     ```powershell
     git clone https://github.com/GeorgeU2030/ProyectoSO.git
     cd ProyectoSO
+    cd src
     ```
 
 2. Run the PowerShell script:
