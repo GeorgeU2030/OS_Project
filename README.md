@@ -1,4 +1,3 @@
-```markdown
 # Datacenter Tool
 
 This repository contains scripts for a menu-driven tool for datacenter operations. The tools are available in both BASH and PowerShell to cater to different operating system environments.
@@ -87,4 +86,4 @@ Select an option [1-6]:
 
 Select an option by entering the corresponding number and press `Enter`. Follow the prompts for options that require additional input (e.g., specifying a directory for the largest file search).
 
-```
+
